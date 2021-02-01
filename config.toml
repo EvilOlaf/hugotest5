@@ -1,8 +1,11 @@
-baseURL = "https://evilolaf.github.io/hugotest5/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "toha"
+baseURL: https://evilolaf.github.io/hugotest5/
 
+languageCode: en-us
+title: "John's Blog"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
     languageName: English
@@ -21,8 +24,8 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL and branch of your site
-  gitRepo: https:https://github.com/EvilOlaf/hugotest5
-  gitBranch: master
+  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitBranch: main
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
@@ -33,4 +36,4 @@ params:
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: false
+    enable: true
