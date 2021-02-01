@@ -1,7 +1,7 @@
 baseURL = "https://evilolaf.github.io/hugotest5/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "toha
+theme = "toha"
 
 languages:
   en:
